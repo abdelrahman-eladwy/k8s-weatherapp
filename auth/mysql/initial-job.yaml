@@ -23,6 +23,8 @@ spec:
           value: "mysql"  # Set the MySQL Service name or hostname
         - name: MYSQL_PORT
           value: "3306"  # MySQL port, default is 3306
+        - name: MYSQL_USER
+          value: "weatherapp_user"  # Define the user
         command: ["/bin/sh", "-c"]
         args:
         - |

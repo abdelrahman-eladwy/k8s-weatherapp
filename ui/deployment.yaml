@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: weatherapp-ui
-          image: afakharany/weatherapp-ui:lab
+          image: eladwy/k8s-lab-ui:tls.4
           imagePullPolicy: IfNotPresent
           env:
             - name: AUTH_HOST
@@ -37,4 +37,3 @@ spec:
             httpGet:
               path: /health
               port: http
-         
