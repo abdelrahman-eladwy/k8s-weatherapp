@@ -110,13 +110,4 @@ helm/	Helm charts for deployments
 
     Open a PR.
 
-📜 License
 
-MIT
-Notes:
-
-    Customize: Replace placeholder text (e.g., your_api_key) with actual values.
-
-    Screenshot: Add a demo image/GIF for better visuals.
-
-    Helm: If Helm charts are incomplete, mention it or guide users to customize values.yaml.
